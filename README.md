@@ -18,3 +18,7 @@ Type summarize in the command window and type enter.
          _t0 |         48           0           0          0          0
 
 Stata will summarize all the variables in the dataset as shown above. As you can see there is 48 observation in our dataset. The mean study time is 15.5, minimum of 1 hour study time and maximum of 39 hours. Mean age of the respondents is 55 years, minimum age is 47 years and maximum age is 67 years. Other variables also follow similar analysis with respective standard deviations. 
+
+## Create Histogram by entering the below command direct.
+
+ histogram age, width(2.5) start(45) frequency title(Age Distribution of Participants in Cancer Study) note(Data: Sample cancer dataset) legend(on) scheme(s1mono)
