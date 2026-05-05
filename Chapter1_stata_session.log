@@ -1,0 +1,39 @@
+---------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\Nyatichi\Downloads\Chapter1_stata_session.log
+  log type:  text
+ opened on:   5 May 2026, 11:53:58
+
+. do "C:\Users\Nyatichi\AppData\Local\Temp\STD2744_000000.tmp"
+
+. sysuse cancer
+(Patient Survival in Drug Trial)
+
+. 
+end of do-file
+
+. do "C:\Users\Nyatichi\AppData\Local\Temp\STD2744_000000.tmp"
+
+. summarize
+
+    Variable |        Obs        Mean    Std. Dev.       Min        Max
+-------------+---------------------------------------------------------
+   studytime |         48        15.5    10.25629          1         39
+        died |         48    .6458333    .4833211          0          1
+        drug |         48       1.875    .8410986          1          3
+         age |         48      55.875    5.659205         47         67
+         _st |         48           1           0          1          1
+-------------+---------------------------------------------------------
+          _d |         48    .6458333    .4833211          0          1
+          _t |         48        15.5    10.25629          1         39
+         _t0 |         48           0           0          0          0
+
+. 
+end of do-file
+
+. log close
+      name:  <unnamed>
+       log:  C:\Users\Nyatichi\Downloads\Chapter1_stata_session.log
+  log type:  text
+ closed on:   5 May 2026, 11:54:27
+---------------------------------------------------------------------------------------------------------
